@@ -1,0 +1,20 @@
+Package: data.sfb12
+Title: SFB12 Data
+Version: 1.0.0
+Authors@R: 
+    person("Tan", "Ho", , "tan@tanho.ca", role = c("aut", "cre","cph"))
+Description: Functions and data for automatically updating SFB ADP and draft pick data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    data.table,
+    dplyr,
+    ffscrapr,
+    piggyback,
+    stringr,
+    cli,
+    tidyr,
+    purrr
